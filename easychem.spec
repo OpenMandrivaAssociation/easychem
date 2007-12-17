@@ -11,7 +11,6 @@ Source:		http://puzzle.dl.sourceforge.net/sourceforge/easychem/%{name}-%{version
 URL:		http://easychem.sourceforge.net/
 License:	GPL
 Group:		Sciences/Chemistry
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	pkgconfig gtk2-devel
 
 %description
