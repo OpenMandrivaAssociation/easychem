@@ -33,10 +33,6 @@ mkdir -p $RPM_BUILD_ROOT/%_bindir
 cp %name $RPM_BUILD_ROOT/%_bindir/
 
 #menu
-mkdir -p $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}): command="%{name}" icon="chemistry_section.png" needs="x11" title="EasyChem" longtitle="2D Molecule Editor" section="Applications/Sciences/Chemistry" xdg="true"
-EOF
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -63,6 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc COPYING
 %{_bindir}/%name
-%{_menudir}/%name
 %{_datadir}/applications/mandriva-%{name}.desktop
 
