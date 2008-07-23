@@ -1,6 +1,6 @@
 %define name	easychem
 %define version	0.6
-%define release %mkrel 2
+%define release %mkrel 4
 
 Name: 	 	%{name}
 Summary: 	2D molecular drawing program
