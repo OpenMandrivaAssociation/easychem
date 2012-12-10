@@ -1,0 +1,13 @@
+Index: easychem-0.6/Makefile.linux
+===================================================================
+--- easychem-0.6.orig/Makefile.linux
++++ easychem-0.6/Makefile.linux
+@@ -28,7 +28,7 @@ OBJECTS=auxi.o bonds.o easychem.o export
+ all: easychem po/
+ 
+ easychem: postscript/ graph/ $(OBJECTS)
+-	$(CC) -o easychem $(OBJECTS) $(GTK_LIBS) $(C_FLAGS)
++	$(CC) -o easychem $(OBJECTS) $(GTK_LIBS) -lm $(C_FLAGS)
+ 	strip easychem
+ 
+ clean: FORCE
