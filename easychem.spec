@@ -4,7 +4,7 @@
 Name:		easychem
 Summary:	2D molecular drawing program
 Version:	0.6
-Release:	7
+Release:	8
 
 Source0:	http://puzzle.dl.sourceforge.net/sourceforge/easychem/%{name}-%{version}.tar.bz2
 Patch0:		easychem-0.6-rosa-linkage.patch
