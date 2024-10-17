@@ -8,7 +8,7 @@ Release:	8
 
 Source0:	http://puzzle.dl.sourceforge.net/sourceforge/easychem/%{name}-%{version}.tar.bz2
 Patch0:		easychem-0.6-rosa-linkage.patch
-URL:		http://easychem.sourceforge.net/
+URL:		https://easychem.sourceforge.net/
 License:	GPLv2+
 Group:		Sciences/Chemistry
 BuildRequires:	gtk2-devel
