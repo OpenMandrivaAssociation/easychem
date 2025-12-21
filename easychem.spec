@@ -11,6 +11,7 @@ Patch0:		easychem-0.6-rosa-linkage.patch
 URL:		https://easychem.sourceforge.net/
 License:	GPLv2+
 Group:		Sciences/Chemistry
+BuildRequires:	make
 BuildRequires:	gtk2-devel
 
 %description
